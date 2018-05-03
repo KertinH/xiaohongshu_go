@@ -111,7 +111,7 @@ def word_cloud():
     # wc.recolor(color_func = image_colors)
     plt.imshow(wc)
     plt.axis('off')
-    plt.savefig('word_cloud/{}.jpg'.format(key), dpi=800)
+    plt.savefig('{}.jpg'.format(key), dpi=800)
     plt.show()
 
 
